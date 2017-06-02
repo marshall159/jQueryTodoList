@@ -20,3 +20,8 @@ $("input[type='text']").on('keypress', function(event) {
 	}
 
 });
+
+//Toggle input box
+$('.fa-plus').click(function() {
+    $("input[type='text']").fadeToggle();
+});

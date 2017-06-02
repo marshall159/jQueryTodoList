@@ -84,3 +84,6 @@ input:focus {
 	text-decoration: line-through;
 	color: gray;
 }
+.hidden {
+    display: none !important;
+}
